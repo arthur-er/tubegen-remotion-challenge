@@ -4,6 +4,7 @@
   "description": "TubeGen AI – Remotion Take-Home Challenge",
   "scripts": {
     "start": "remotion studio",
+    "prototype": "remotion studio",
     "render": "remotion render TubeGenVideo out/tubegen.mp4 --overwrite",
     "build": "remotion bundle"
   },

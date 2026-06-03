@@ -27,6 +27,13 @@ export const MOCK_CHANNEL = {
   ],
 };
 
+export const MOCK_SCRIPT_PROMPTS = [
+  "Open with a ranking premise, set stakes fast, and make the viewer wonder which MrBeast challenge is actually hardest.",
+  "Explain the format, define the ranking criteria, and promise a surprising top three without slowing down the pace.",
+  "Break the challenges into escalating tiers, compare physical, mental, and budget pressure, then reveal the brutal winner.",
+  "Close with a viewer debate prompt and tease a follow-up breakdown of the MrBeast production system.",
+];
+
 // ---------------------------------------------------------------------------
 // Scene 2 — Viral ideas
 // ---------------------------------------------------------------------------
@@ -69,14 +76,14 @@ export const MOCK_IDEAS = [
   },
 ];
 
-export const SELECTED_IDEA_ID = 1;
+export const SELECTED_IDEA_ID = 2;
 
 // ---------------------------------------------------------------------------
 // Scene 3 — Script sections
 // ---------------------------------------------------------------------------
 
 export const MOCK_SCRIPT = {
-  title: MOCK_IDEAS[0].title,
+  title: MOCK_IDEAS[1].title,
   wordCount: 847,
   estimatedRuntime: "6 min 20 sec",
   aiConfidence: 94,
